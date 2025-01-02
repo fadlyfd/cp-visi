@@ -63,34 +63,21 @@
             <img src="assets/img/logo-visi-transparent.png" alt="" />
             <!-- <h1 class="sitename">BizLand</h1> -->
           </a>
-
           <nav id="navmenu" class="navmenu">
             <ul>
-              <li><a href="#hero" class="active">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#team">Team</a></li>
+              <li><a href="#hero" class="active" data-lang-key="nav-home">Beranda</a></li>
+              <li><a href="#about" data-lang-key="nav-about">Tentang</a></li>
+              <li><a href="#services" data-lang-key="nav-services">Layanan</a></li>
+              <li><a href="#portfolio" data-lang-key="nav-portfolio">Portofolio</a></li>
+              <li><a href="#team" data-lang-key="nav-team">Tim</a></li>
               <li class="dropdown">
-                <a href="#"><span>Language</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <a href="#"><span data-lang-key="nav-language">Bahasa</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <!-- <li><a href="#">Dropdown 1</a></li> -->
-                  <!-- <li class="dropdown">
-                    <a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                    <ul>
-                      <li><a href="#">Deep Dropdown 1</a></li>
-                      <li><a href="#">Deep Dropdown 2</a></li>
-                      <li><a href="#">Deep Dropdown 3</a></li>
-                      <li><a href="#">Deep Dropdown 4</a></li>
-                      <li><a href="#">Deep Dropdown 5</a></li>
-                    </ul>
-                  </li> -->
-                  <li><a href="#">Indonesia</a></li>
-                  <li><a href="#">English</a></li>
-                  <!-- <li><a href="#">Dropdown 4</a></li> -->
+                  <li><a href="#" id="lang-indonesia" data-lang-key="nav-indonesia">Indonesia</a></li>
+                  <li><a href="#" id="lang-english" data-lang-key="nav-english">Inggris</a></li>
                 </ul>
               </li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#contact" data-lang-key="nav-contact">Kontak</a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
           </nav>
@@ -99,21 +86,24 @@
     </header>
 
     <main class="main">
-      <!-- Hero Section -->
       <section id="hero" class="hero section light-background">
         <div class="container">
           <div class="row gy-4">
             <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-              <h1>Welcome to <span>VISI</span></h1>
-              <p>MAKE EVERYTHING BETTER AND EASIER</p>
+              <h1 data-lang-key="hero-welcome">Selamat Datang di VISI</h1>
+              <p data-lang-key="hero-tagline">MEMBUAT SEGALANYA MENJADI LEBIH BAIK DAN MUDAH</p>
               <div class="d-flex">
-                <a href="#about" class="btn-get-started">Get Started</a>
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+                <a href="#about" class="btn-get-started" data-lang-key="hero-get-started">Mulai</a>
+                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center">
+                  <i class="bi bi-play-circle"></i>
+                  <span data-lang-key="hero-watch-video">Tonton Video</span>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <!-- /Hero Section -->
 
       <!-- Featured Services Section -->
@@ -164,8 +154,7 @@
       <section id="about" class="about section light-background">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <!-- <h2>About</h2> -->
-          <p><span class="description-title">About Us</span></p>
+          <p><span class="description-title" data-lang-key="about-title">Tentang Kami</span></p>
         </div>
         <!-- End Section Title -->
 
@@ -177,30 +166,14 @@
 
             <div class="col-lg-6 d-flex flex-column justify-content-start" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3 class="mb-5">PT. Virtual Intelligent Services International.</h3>
-                <p class="mb-5">
+                <h3 class="mb-5" data-lang-key="about-heading">PT. Virtual Intelligent Services International.</h3>
+                <p class="mb-5" data-lang-key="about-description-1">
                   PT. Virtual Intelligent Services International (VISI) merupakan sebuah perusahaan yang bergerak dalam bidang Information Technology (IT) khususnya sebagai “System Developer”, baik yang berupa system aplikasi atau embedded
                   system. Virtual Intelligent Service International (VISI) memanfaatkan sumber tenaga professional anak bangsa Indonesia yang terampil di bidang teknologi informasi yang kini kemampuannya sudah mulai diakui di dunia
-                  international. Didirikan pada awal bulan Mei 2002 berdasarkan akta No.2 tanggal 3 Mei 2002 dari Jacinta Susanti S.H, Notaris di Jakarta. Atas pendirian dan perbaikannya tersebut telah mendapat persetujuan dari Menteri
+                  internasional. Didirikan pada awal bulan Mei 2002 berdasarkan akta No.2 tanggal 3 Mei 2002 dari Jacinta Susanti S.H, Notaris di Jakarta. Atas pendirian dan perbaikannya tersebut telah mendapat persetujuan dari Menteri
                   Kehakiman Republik Indonesia No. C-17286 HT. 01.01. tahun 2002 tanggal 09 September 2002..
                 </p>
-                <!--  <ul>
-                  <li>
-                    <i class="bi bi-diagram-3"></i>
-                    <div>
-                      <h4>Ullamco laboris nisi ut aliquip consequat</h4>
-                      <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
-                    </div>
-                  </li>
-                  <li>
-                    <i class="bi bi-fullscreen-exit"></i>
-                    <div>
-                      <h4>Magnam soluta odio exercitationem reprehenderi</h4>
-                      <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
-                    </div>
-                  </li>
-                </ul> -->
-                <p>
+                <p data-lang-key="about-description-2">
                   Pada awalnya Maksud dan tujuan Perusahaan adalah menyediakan produk dan layanan jasa dalam bidang Teknologi Informasi guna mendukung kegiatan bisnis perusahaan-perusahaan dalam bidang EPC tetapi seiring berjalannya waktu
                   guna meningkatkan daya saing yang kompetitif pada saat ini kami menyediakan layanan jasa untuk seluruh bidang perusahaan tidak hanya perusahaan EPC.
                 </p>
@@ -209,41 +182,44 @@
           </div>
         </div>
       </section>
+
       <!-- /About Section -->
 
       <!-- About Section -->
       <section id="about" class="about section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <!-- <h2>About</h2> -->
-          <p><span class="description-title">Vision & Mision</span></p>
+          <p><span class="description-title" data-lang-key="about-title-2">Visi & Misi</span></p>
         </div>
         <!-- End Section Title -->
 
         <div class="container">
           <div class="row gy-3">
+            <!-- Visi -->
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>Visi</h3>
+                <h3 data-lang-key="vision-heading">Visi</h3>
                 <ul class="text-start fst-italic">
-                  <li>Menjadi perusahaan Teknologi Informasi kelas dunia, yang dapat memproduksi aplikasi inovatif dan mempunyai kemapuan daya saing global.</li>
+                  <li data-lang-key="vision-point-1">Menjadi perusahaan Teknologi Informasi kelas dunia, yang dapat memproduksi aplikasi inovatif dan mempunyai kemampuan daya saing global.</li>
                 </ul>
               </div>
             </div>
 
+            <!-- Misi -->
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>Misi</h3>
+                <h3 data-lang-key="mission-heading">Misi</h3>
                 <ul class="text-start fst-italic">
-                  <li>Menyediakan produk software yang inovatif dalam bidang Teknologi Informasi yang berguna untuk meningkatkan mutu pendidikan bangsa Indonesia.</li>
-                  <li>Membangun citra internasional untuk memberikan nilai kebanggaan bangsa Indonesia di dunia Internasional.</li>
-                  <li>Menyediakan software aplikasi-aplikasi yang bermutu untuk dunia usaha di Indonesia agar mempunyai nilai kompetitif yang tinggi.</li>
+                  <li data-lang-key="mission-point-1">Menyediakan produk software yang inovatif dalam bidang Teknologi Informasi yang berguna untuk meningkatkan mutu pendidikan bangsa Indonesia.</li>
+                  <li data-lang-key="mission-point-2">Membangun citra internasional untuk memberikan nilai kebanggaan bangsa Indonesia di dunia Internasional.</li>
+                  <li data-lang-key="mission-point-3">Menyediakan software aplikasi-aplikasi yang bermutu untuk dunia usaha di Indonesia agar mempunyai nilai kompetitif yang tinggi.</li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <!-- /About Section -->
 
       <!-- Skills Section -->
@@ -406,30 +382,28 @@
       <section id="services" class="services section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <!-- <h2>Services</h2> -->
-          <p><span class="description-title">Products & Services</span></p>
+          <p><span class="description-title" data-lang-key="services-title">Produk & Jasa</span></p>
         </div>
         <!-- End Section Title -->
 
         <div class="container">
           <div class="row gy-4">
+            <!-- Service Item -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
               <div class="service-item position-relative">
                 <div class="icon">
                   <i class="bi bi-chat-square-text"></i>
                 </div>
                 <a href="#" class="stretched-link">
-                  <h3>Jasa</h3>
+                  <h3 data-lang-key="service-header">Jasa</h3>
                 </a>
                 <ul class="text-start">
-                  <li>Project Material management OutSourcer</li>
-                  <li>Project Document Management OutSourcer</li>
-                  <li>Electronic Document Handling</li>
-                  <li>Network Security Management</li>
-                  <li>dll</li>
+                  <li data-lang-key="service-item-1">Manajemen Material Proyek Outsourcer</li>
+                  <li data-lang-key="service-item-2">Manajemen Dokumen Proyek Outsourcer</li>
+                  <li data-lang-key="service-item-3">Penanganan Dokumen Elektronik</li>
+                  <li data-lang-key="service-item-4">Manajemen Keamanan Jaringan</li>
+                  <li data-lang-key="service-item-5">dan lain-lain</li>
                 </ul>
-
-                <a href="#" class="stretched-link"></a>
               </div>
             </div>
             <!-- End Service Item -->
@@ -440,16 +414,16 @@
                   <i class="bi bi-broadcast"></i>
                 </div>
                 <a href="#" class="stretched-link">
-                  <h3>Software Aplikasi Pendidikan</h3>
+                  <h3 data-lang-key="education-software">Software Aplikasi Pendidikan</h3>
                 </a>
                 <ul class="text-start">
-                  <li>SAMAS Administrasi</li>
-                  <li>SAMAS Desktop</li>
-                  <li>SAMAS Center</li>
+                  <li data-lang-key="samas-admin">SAMAS Administrasi</li>
+                  <li data-lang-key="samas-desktop">SAMAS Desktop</li>
+                  <li data-lang-key="samas-center">SAMAS Center</li>
                 </ul>
-                <!-- <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p> -->
               </div>
             </div>
+
             <!-- End Service Item -->
 
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -458,14 +432,13 @@
                   <i class="bi bi-easel"></i>
                 </div>
                 <a href="#" class="stretched-link">
-                  <h3>Software Aplikasi berbasis Komunitas</h3>
+                  <h3 data-lang-key="community-software">Software Aplikasi berbasis Komunitas</h3>
                 </a>
-                <!-- <p>QDMS Solution/QA SOFTWARE, LTD Australia.</p> -->
                 <ul class="text-start">
-                  <li>RasaNusantara.com</li>
-                  <li>PiePiekoe.com</li>
-                  <li>Iluni-ftUI-Networking.com</li>
-                  <li>e-Mitra UKM (eUKM)</li>
+                  <li data-lang-key="rasanusantara">RasaNusantara.com</li>
+                  <li data-lang-key="piepiekoe">PiePiekoe.com</li>
+                  <li data-lang-key="iluni-ftui">Iluni-ftUI-Networking.com</li>
+                  <li data-lang-key="eukm">e-Mitra UKM (eUKM)</li>
                 </ul>
               </div>
             </div>
@@ -477,18 +450,17 @@
                   <i class="bi bi-activity"></i>
                 </div>
                 <a href="#" class="stretched-link">
-                  <h3>Software Aplikasi EPC</h3>
+                  <h3 data-lang-key="epc-software">Software Aplikasi EPC</h3>
                 </a>
                 <ul class="text-start">
-                  <li>v-POS (V-Procurement Operating System)</li>
-                  <li>v-PMS (V-Project Material Management System)</li>
-                  <li>e-PIMS (electronic Procurement Inquiry Management System)</li>
-                  <li>v-PC (Project Control Systems)</li>
-                  <li>v-Payroll Systems</li>
-                  <li>e-TimeSheetPro</li>
-                  <li>e-LoadManPro</li>
+                  <li data-lang-key="v-pos">v-POS (V-Procurement Operating System)</li>
+                  <li data-lang-key="v-pms">v-PMS (V-Project Material Management System)</li>
+                  <li data-lang-key="e-pims">e-PIMS (electronic Procurement Inquiry Management System)</li>
+                  <li data-lang-key="v-pc">v-PC (Project Control Systems)</li>
+                  <li data-lang-key="v-payroll">v-Payroll Systems</li>
+                  <li data-lang-key="e-timesheetpro">e-TimeSheetPro</li>
+                  <li data-lang-key="e-loadmanpro">e-LoadManPro</li>
                 </ul>
-                <!-- <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p> -->
               </div>
             </div>
             <!-- End Service Item -->
@@ -499,23 +471,21 @@
                   <i class="bi bi-bounding-box-circles"></i>
                 </div>
                 <a href="#" class="stretched-link">
-                  <h3>Produk Software dari Aliansi Perusahaan Luar Negeri</h3>
+                  <h3 data-lang-key="foreign-software-1">Produk Software dari Aliansi Perusahaan Luar Negeri</h3>
                 </a>
                 <div class="text-start">
-                  <p>NetCore.co.in merupakan perusahaan Software Secuity di India:</p>
+                  <p data-lang-key="netcore-desc">NetCore.co.in merupakan perusahaan Software Security di India:</p>
                   <ul>
-                    <li>Emergic MailServer yang berupa mail gateway & Instant Messaging Server.</li>
-                    <li>Emergic FlexiMail, yang berupa Mail Storage & management.</li>
-                    <li>Emergic MailServ Add-ons, berupa Advanced Proxy Server.</li>
+                    <li data-lang-key="emergic-mailserver">Emergic MailServer yang berupa mail gateway & Instant Messaging Server.</li>
+                    <li data-lang-key="emergic-fleximail">Emergic FlexiMail, yang berupa Mail Storage & management.</li>
+                    <li data-lang-key="emergic-addons">Emergic MailServ Add-ons, berupa Advanced Proxy Server.</li>
                   </ul>
 
-                  <p>Logical Object System merupakan Perusahaan Software Document Management System dari Itali :</p>
+                  <p data-lang-key="logical-object-desc">Logical Object System merupakan Perusahaan Software Document Management System dari Itali :</p>
                   <ul>
-                    <li>LogicalDoc</li>
+                    <li data-lang-key="logicaldoc">LogicalDoc</li>
                   </ul>
                 </div>
-
-                <a href="#" class="stretched-link"></a>
               </div>
             </div>
             <!-- End Service Item -->
@@ -526,30 +496,28 @@
                   <i class="bi bi-bounding-box-circles"></i>
                 </div>
                 <a href="#" class="stretched-link">
-                  <h3>Produk Software dari Aliansi Perusahaan Luar Negeri</h3>
+                  <h3 data-lang-key="foreign-software-2">Produk Software dari Aliansi Perusahaan Luar Negeri</h3>
                 </a>
-
                 <div class="text-start">
-                  <p>QDMS Solution/QA SOFTWARE, LTD Australia :</p>
+                  <p data-lang-key="qdms-desc">QDMS Solution/QA SOFTWARE, LTD Australia :</p>
                   <ul>
-                    <li>QDMS</li>
-                    <li>QVDMS</li>
-                    <li>Qtrak</li>
-                    <li>QView</li>
-                    <li>TeamBinder</li>
+                    <li data-lang-key="qdms">QDMS</li>
+                    <li data-lang-key="qvdms">QVDMS</li>
+                    <li data-lang-key="qtrak">Qtrak</li>
+                    <li data-lang-key="qview">QView</li>
+                    <li data-lang-key="teambinder">TeamBinder</li>
                   </ul>
-                  <p>ZWSOFT,LTD China :</p>
-                  <ul>
-                    <li>CAD Software ZWCAD</li>
-                  </ul>
-                  <p>OpenERP / ODOO System merupakan perusahaan SoftwareERP System dari Belgia :</p>
 
+                  <p data-lang-key="zwsoft-desc">ZWSOFT, LTD China :</p>
                   <ul>
-                    <li>Implementasi ERP System</li>
+                    <li data-lang-key="zwcad">CAD Software ZWCAD</li>
+                  </ul>
+
+                  <p data-lang-key="odoo-desc">OpenERP / ODOO System merupakan perusahaan Software ERP System dari Belgia :</p>
+                  <ul>
+                    <li data-lang-key="erp-implementation">Implementasi ERP System</li>
                   </ul>
                 </div>
-
-                <a href="#" class="stretched-link"></a>
               </div>
             </div>
             <!-- End Service Item -->
@@ -665,8 +633,7 @@
       <section id="portfolio" class="portfolio section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <!-- <h2>Portfolio</h2> -->
-          <p><span class="description-title">Portfolio</span></p>
+          <p><span class="description-title" data-lang-key="portfolio-title">Portofolio</span></p>
         </div>
         <!-- End Section Title -->
 
@@ -674,410 +641,417 @@
           <div class="row gy-3">
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2002</h3>
+                <h3 data-lang-key="year-2002">2002</h3>
                 <ul class="text-start">
-                  <li>Property Management System for PT. Inti Karya Persada Tehnik – Jakarta, using Oracle Database, Developer 2000</li>
-                  <li>Procurement Operating System for PT. Inti Karya Persada Tehnik - Jakarta, using Oracle Database, Developer 2000</li>
-                  <li>Progress Control Ver 1.0 for PT. Inti Karya Persada Tehnik – Jakarta, using Oracle Database, Developer 2000</li>
-                  <li>Material Management System 4.0 for PT. Inti Karya Persada Tehnik – Jakarta, using Oracle Database, Developer 2000</li>
+                  <li data-lang-key="project-1">Sistem Manajemen Properti untuk PT. Inti Karya Persada Tehnik – Jakarta, menggunakan Oracle Database, Developer 2000</li>
+                  <li data-lang-key="project-2">Sistem Operasi Pengadaan untuk PT. Inti Karya Persada Tehnik - Jakarta, menggunakan Oracle Database, Developer 2000</li>
+                  <li data-lang-key="project-3">Sistem Kontrol Progres Ver 1.0 untuk PT. Inti Karya Persada Tehnik – Jakarta, menggunakan Oracle Database, Developer 2000</li>
+                  <li data-lang-key="project-4">Sistem Manajemen Material 4.0 untuk PT. Inti Karya Persada Tehnik – Jakarta, menggunakan Oracle Database, Developer 2000</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2003</h3>
+                <h3 data-lang-key="year-2003">2003</h3>
                 <ul class="text-start">
-                  <li>Internal Controller System Ver 1.0 for PT. Inti Karya Persada Tehnik – Jakarta, using Oracle Database, Developer 2000</li>
-                  <li>Engineering Man-Hour Estimation Ver 1.0 for PT. Inti Karya Persada Tehnik - Jakarta, using Oracle Database, Delphi Ver 6.00</li>
-                  <li>Payroll Information System Ver 1.0 for PT. Inti Karya Persada Tehnik – Jakarta, using Oracle Database, Delphi Ver 6.00</li>
-                  <li>Standard Pipe Support Calculation Tool for PT. Inti Karya Persada Tehnik – Jakarta, using PHP, MySQL</li>
-                  <li>
-                    e-PIMS (e-Procurement Inquiry Management System) for Procurement Division PT. Inti Karya Persada Tehnik Jakarta – Kujang 1b OSBL Project using PHP, MySQL Apache Web Server, Linux, Firewall, Backup with domain name:
+                  <li data-lang-key="project-5">Sistem Pengendali Internal Ver 1.0 untuk PT. Inti Karya Persada Tehnik – Jakarta, menggunakan Oracle Database, Developer 2000</li>
+                  <li data-lang-key="project-6">Estimasi Jam Man-Hour Engineering Ver 1.0 untuk PT. Inti Karya Persada Tehnik - Jakarta, menggunakan Oracle Database, Delphi Ver 6.00</li>
+                  <li data-lang-key="project-7">Sistem Informasi Penggajian Ver 1.0 untuk PT. Inti Karya Persada Tehnik – Jakarta, menggunakan Oracle Database, Delphi Ver 6.00</li>
+                  <li data-lang-key="project-8">Alat Perhitungan Dukungan Pipa Standar untuk PT. Inti Karya Persada Tehnik – Jakarta, menggunakan PHP, MySQL</li>
+                  <li data-lang-key="project-9">
+                    e-PIMS (e-Procurement Inquiry Management System) untuk Divisi Pengadaan PT. Inti Karya Persada Tehnik Jakarta – Proyek Kujang 1b OSBL menggunakan PHP, MySQL, Apache Web Server, Linux, Firewall, Backup dengan nama domain:
                     www.kujang1b-osbl.or.id
                   </li>
-                  <li>e-PIMS (e-Procurement Inquiry Management System) for Procurement Division PT. Inti Karya Persada Tehnik Jakarta – Home Office using PHP, MySQL Apache Web Server, Linux, Firewall, Backup</li>
-                  <li>Webmail using PHP, MySQL, Apache Web Server, Linux, Firewall, Backup</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
-              <div class="about-content ps-0 ps-lg-3">
-                <h3>2004</h3>
-                <ul class="text-start">
-                  <li>Construction Progress Calculation Ver 1.00 For PT. Inti Karya Persada Tehnik – Jakarta, using Oracle Database, Developer 2000</li>
-                  <li>Procurement Operating System for PT. Truba Jurong Engineering - Jakarta, using Oracle Database, Developer 2000</li>
-                  <li>Supply and Training of Document Management System QA Software Pty, Ltd Australia for PT. Truba Jurong Engineering</li>
-                  <li>Building IT Infrastructure and Services for PT. Inti Karya Persada Tehnik, SUMBAGSEL Project South Sumatera</li>
-                  <li>Supply IT Man Power for PT. Inti Karya Persada Tehnik, SUMBAGSEL Project South Sumatera</li>
-                  <li>e-PIMS (e-Procurement Inquiry Management System) for Procurement Division PT. Inti Karya Persada Tehnik, SUMBAGSEL Project South Sumatera using PHP, MySQL Apache Web Server, Linux, Firewall, Backup</li>
-                  <li>Supply and Training of Document Management System QA Software Pty, Ltd Australia for PT. Inti Karya Persada Tehnik</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
-              <div class="about-content ps-0 ps-lg-3">
-                <h3>2005</h3>
-                <ul class="text-start">
-                  <li>Building IT Infrastructure and Services for PT. Inti Karya Persada Tehnik, Ujung Pangkah Development Project – Gresik, East Java</li>
-                  <li>
-                    e-PIMS (e-Procurement Inquiry Management System) for Procurement Division PT. Inti Karya Persada Tehnik, Ujung Pangkah Development Project, Gresik – East Java using PHP, MySQL Apache Web Server, Linux, Firewall, Backup
+                  <li data-lang-key="project-10">
+                    e-PIMS (e-Procurement Inquiry Management System) untuk Divisi Pengadaan PT. Inti Karya Persada Tehnik Jakarta – Kantor Pusat menggunakan PHP, MySQL, Apache Web Server, Linux, Firewall, Backup
                   </li>
-                  <li>Document Scanning Convert to PDF files for PT. Inti Karya Persada Tehnik, CII BCD Project, Jakarta</li>
-                  <li>SPT System for PT. Inti Karya Persada Tehnik, Jakarta Home Office</li>
+                  <li data-lang-key="project-11">Webmail menggunakan PHP, MySQL, Apache Web Server, Linux, Firewall, Backup</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2006</h3>
+                <h3 data-lang-key="year-2004">2004</h3>
                 <ul class="text-start">
-                  <li>Supply and Training of Document Management System QA Software Pty, LTd Australia for PT. BlueScope Steel Indonesia</li>
-                  <li>Supply and Training of Document Management System QA Software Pty, LTd Australia for PT. Nisconi Indonesia</li>
-                  <li>Timesheet Application for PT. Inti Karya Persada Tehnik, Ujung Pangkah Development Project, Gresik – East Java</li>
-                  <li>Company Load Current Capacity for PT. Inti Karya Persada Tehnik</li>
-                  <li>Developing Educational Application System</li>
-                  <li>Enhanced Material Management Application System for PT. Inti Karya Persada Tehnik</li>
-                  <li>Enterprise Information system for PT. Inti Karya Persada Tehnik</li>
+                  <li data-lang-key="project-12">Perhitungan Kemajuan Konstruksi Ver 1.00 Untuk PT. Inti Karya Persada Tehnik – Jakarta, menggunakan Oracle Database, Developer 2000</li>
+                  <li data-lang-key="project-13">Sistem Pengadaan Operasional untuk PT. Truba Jurong Engineering - Jakarta, menggunakan Oracle Database, Developer 2000</li>
+                  <li data-lang-key="project-14">Penyediaan dan Pelatihan Sistem Manajemen Dokumen untuk QA Software Pty, Ltd Australia untuk PT. Truba Jurong Engineering</li>
+                  <li data-lang-key="project-15">Pembangunan Infrastruktur dan Layanan TI untuk PT. Inti Karya Persada Tehnik, Proyek SUMBAGSEL Sumatera Selatan</li>
+                  <li data-lang-key="project-16">Penyediaan Tenaga Kerja TI untuk PT. Inti Karya Persada Tehnik, Proyek SUMBAGSEL Sumatera Selatan</li>
+                  <li data-lang-key="project-17">
+                    e-PIMS (Sistem Manajemen Pertanyaan Pengadaan Elektronik) untuk Divisi Pengadaan PT. Inti Karya Persada Tehnik, Proyek SUMBAGSEL Sumatera Selatan menggunakan PHP, MySQL, Apache Web Server, Linux, Firewall, Backup
+                  </li>
+                  <li data-lang-key="project-18">Penyediaan dan Pelatihan Sistem Manajemen Dokumen untuk QA Software Pty, Ltd Australia untuk PT. Inti Karya Persada Tehnik</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2007</h3>
+                <h3 data-lang-key="year-2005">2005</h3>
                 <ul class="text-start">
-                  <li>Launching Educational Application System</li>
-                  <li>Building Management Application System for PT. Graha Menara Hijau (ERP)</li>
-                  <li>Management Information System for Fishing Industries Integrated for PT. Dharma Samudera Fishing Industries, Tbk (ERP)</li>
-                  <li>Web application www.checkoutmyink.com</li>
-                  <li>Web application www.wokster.com</li>
-                  <li>Web site development www.akparmatoa.ac.id</li>
-                  <li>Web site development www.mudamandiri.co.id</li>
-                  <li>Web site development www.parama.co.id</li>
-                  <li>Financial Management System for PT. Sentra Bangun Harmoni</li>
-                  <li>Computer hardware supply for PT. Graha Menara Hijau</li>
-                  <li>Networking and peripherals infrastructure for PT. Graha Menara Hijau</li>
+                  <li data-lang-key="project-19">Pembangunan Infrastruktur dan Layanan TI untuk PT. Inti Karya Persada Tehnik, Proyek Pengembangan Ujung Pangkah – Gresik, Jawa Timur</li>
+                  <li data-lang-key="project-20">
+                    e-PIMS (Sistem Manajemen Pertanyaan Pengadaan Elektronik) untuk Divisi Pengadaan PT. Inti Karya Persada Tehnik, Proyek Pengembangan Ujung Pangkah, Gresik – Jawa Timur menggunakan PHP, MySQL, Apache Web Server, Linux,
+                    Firewall, Backup
+                  </li>
+                  <li data-lang-key="project-21">Pemindaian Dokumen Menjadi File PDF untuk PT. Inti Karya Persada Tehnik, Proyek CII BCD, Jakarta</li>
+                  <li data-lang-key="project-22">Sistem SPT untuk PT. Inti Karya Persada Tehnik, Kantor Pusat Jakarta</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2008</h3>
+                <h3 data-lang-key="year-2006">2006</h3>
                 <ul class="text-start">
-                  <li>Partnership in Implementation in EPC Application (VPcal, VMMS Pro and VProc) for PT. Adhi Karya Tbk</li>
-                  <li>Web site Application Development: www.checkoutmypic.com</li>
-                  <li>Document Scanning PT. Capitalink Finance</li>
-                  <li>Partnership with YABM (Yayasan Anak Bangsa Mandiri) and PT. Exelcomindo Pratama (XL) in Developing and Launching Educational Application System (SAMAS) for all High school in Yogyakarta area</li>
-                  <li>Supporting IKPT – Petrofac International in Outsourcing of Hardware, Software Development Supply and Maintenance and Man Power Supply</li>
-                  <li>Supply of Document Management System QA Software Pty, LTd Australia for PT. Siemens Indonesia</li>
-                  <li>Website Development and Business Intelligent for PT. Fajar Mas Murni</li>
-                  <li>Website Development for PT. Baruna Raya Logistic</li>
-                  <li>Supply of Time Sheet for PT. Encona Inti Industri</li>
-                  <li>Supply of Payroll Application, Man Power Supply Application for PT. KELSRI</li>
-                  <li>Supply of Document Management System QA Software Pty, LTd Australia for PT. Kangean Energy Indonesia</li>
+                  <li data-lang-key="project-23">Penyediaan dan Pelatihan Sistem Manajemen Dokumen untuk QA Software Pty, Ltd Australia untuk PT. BlueScope Steel Indonesia</li>
+                  <li data-lang-key="project-24">Penyediaan dan Pelatihan Sistem Manajemen Dokumen untuk QA Software Pty, Ltd Australia untuk PT. Nisconi Indonesia</li>
+                  <li data-lang-key="project-25">Aplikasi Timesheet untuk PT. Inti Karya Persada Tehnik, Proyek Pengembangan Ujung Pangkah, Gresik – Jawa Timur</li>
+                  <li data-lang-key="project-26">Kapasitas Beban Perusahaan untuk PT. Inti Karya Persada Tehnik</li>
+                  <li data-lang-key="project-27">Pengembangan Sistem Aplikasi Pendidikan</li>
+                  <li data-lang-key="project-28">Sistem Aplikasi Manajemen Material yang Ditingkatkan untuk PT. Inti Karya Persada Tehnik</li>
+                  <li data-lang-key="project-29">Sistem Informasi Perusahaan untuk PT. Inti Karya Persada Tehnik</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2009</h3>
+                <h3 data-lang-key="year-2007">2007</h3>
                 <ul class="text-start">
-                  <li>Partnership in Implementation in EPC Application (VPcal, VMMS Pro and VProc) for PT. Adhi Karya Tbk</li>
-                  <li>QDMS – Data Migration Package for PT. Kangean Energy Indonesia</li>
-                  <li>Supply of Training VPcal, VMMS Pro and VProc for PT. WIKA</li>
-                  <li>Supply of Co-location Server for PT. Fajar Mas Murni</li>
-                  <li>Supply of Document Management System & Training QA Software Pty, LTd Australia for PT. Tripatra Engineering</li>
-                  <li>Supply of Payroll Application, Man Power Supply Application for PT. KELSRI</li>
-                  <li>Supply of Document Management System & Training QA Software Pty, LTd Australia for PT. Guna Nusa</li>
-                  <li>Supply of Payroll Application, Man Power Supply Application for PT. IKPT</li>
-                  <li>Customize Of Website Development and Business Intelligence for PT. Fajar Mas Murni</li>
-                  <li>Supply of Document Management System & Training QA Software Pty, LTd Australia for PT. Meindo Elang Indah</li>
-                  <li>Customize of Report Microsoft Navision for PT. Sagatrade Murni</li>
-                  <li>Supply of Co-location Server for PT. Encona Inti Industri</li>
-                  <li>Supply Of Internet Access Services For PT. IKPT</li>
-                  <li>Customize of Timesheet Pro for PT. Encona Inti Industri</li>
-                  <li>Update of Payroll Application for PT. IKPT</li>
-                  <li>Supply of Internet Access Services For PT. KELSRI</li>
-                  <li>Supply of E-Leave Application for PT. KBR Indonesia (in Process)</li>
+                  <li data-lang-key="project-30">Peluncuran Sistem Aplikasi Pendidikan</li>
+                  <li data-lang-key="project-31">Sistem Aplikasi Manajemen Gedung untuk PT. Graha Menara Hijau (ERP)</li>
+                  <li data-lang-key="project-32">Sistem Informasi Manajemen untuk Industri Perikanan Terintegrasi untuk PT. Dharma Samudera Fishing Industries, Tbk (ERP)</li>
+                  <li data-lang-key="project-33">Aplikasi Web www.checkoutmyink.com</li>
+                  <li data-lang-key="project-34">Aplikasi Web www.wokster.com</li>
+                  <li data-lang-key="project-35">Pengembangan Situs Web www.akparmatoa.ac.id</li>
+                  <li data-lang-key="project-36">Pengembangan Situs Web www.mudamandiri.co.id</li>
+                  <li data-lang-key="project-37">Pengembangan Situs Web www.parama.co.id</li>
+                  <li data-lang-key="project-38">Sistem Manajemen Keuangan untuk PT. Sentra Bangun Harmoni</li>
+                  <li data-lang-key="project-39">Penyediaan Perangkat Keras Komputer untuk PT. Graha Menara Hijau</li>
+                  <li data-lang-key="project-40">Infrastruktur Jaringan dan Perifer untuk PT. Graha Menara Hijau</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2010</h3>
+                <h3 data-lang-key="year-2008">2008</h3>
                 <ul class="text-start">
-                  <li>Partnership in Implementation in EPC Application (VPcal, VMMS Pro and VProc) for PT. Adhi Karya Tbk</li>
-                  <li>Supply Of Internet Access Services For PT. IKPT</li>
-                  <li>Supply of Internet Access Services For PT. KELSRI</li>
-                  <li>Supply of Co-location Server for PT. Fajar Mas Murni</li>
-                  <li>Supply of E-Leave Application for PT. KBR Indonesia</li>
-                  <li>Supply of Precommissioning Application for PT. Meindo Elang Indah</li>
-                  <li>Supply of Risk Management Application for PT. IKPT</li>
-                  <li>Supply of Project Material Management for PT. KELSRI</li>
-                  <li>Supply of Document Management System & Training QA Software Pty, LTd Australia for PT. Guna Nusa</li>
-                  <li>Supply of Document Management System & Training QA Software Pty, LTd Australia for PT. Kangean Energy Indonesia</li>
+                  <li data-lang-key="project-41">Kemitraan dalam Implementasi Aplikasi EPC (VPcal, VMMS Pro dan VProc) untuk PT. Adhi Karya Tbk</li>
+                  <li data-lang-key="project-42">Pengembangan Aplikasi Website: www.checkoutmypic.com</li>
+                  <li data-lang-key="project-43">Pemindaian Dokumen PT. Capitalink Finance</li>
+                  <li data-lang-key="project-44">
+                    Kemitraan dengan YABM (Yayasan Anak Bangsa Mandiri) dan PT. Exelcomindo Pratama (XL) dalam Mengembangkan dan Meluncurkan Sistem Aplikasi Pendidikan (SAMAS) untuk semua Sekolah Menengah di wilayah Yogyakarta
+                  </li>
+                  <li data-lang-key="project-45">Mendukung IKPT – Petrofac International dalam Outsourcing Pengadaan Perangkat Keras, Pengembangan Perangkat Lunak dan Pemeliharaan serta Penyediaan Tenaga Kerja</li>
+                  <li data-lang-key="project-46">Penyediaan Sistem Manajemen Dokumen QA Software Pty, Ltd Australia untuk PT. Siemens Indonesia</li>
+                  <li data-lang-key="project-47">Pengembangan Website dan Business Intelligence untuk PT. Fajar Mas Murni</li>
+                  <li data-lang-key="project-48">Pengembangan Website untuk PT. Baruna Raya Logistic</li>
+                  <li data-lang-key="project-49">Penyediaan Time Sheet untuk PT. Encona Inti Industri</li>
+                  <li data-lang-key="project-50">Penyediaan Aplikasi Payroll, Aplikasi Penyediaan Tenaga Kerja untuk PT. KELSRI</li>
+                  <li data-lang-key="project-51">Penyediaan Sistem Manajemen Dokumen QA Software Pty, Ltd Australia untuk PT. Kangean Energy Indonesia</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2011</h3>
+                <h3 data-lang-key="year-2009">2009</h3>
                 <ul class="text-start">
-                  <li>Supply Of Internet Access Services For PT. IKPT</li>
-                  <li>Supply of Internet Access Services For PT. KELSRI</li>
-                  <li>Supply Maintenance & Support of Document Management System for PT. Guna Nusa</li>
-                  <li>Supply Maintenance & Support of Document Management System for PT. Kangean Energy Indonesia</li>
-                  <li>Supply of ZWCAD 2011 Standard (CAD Software) for PT. Inti Karya Persada Tehnik</li>
-                  <li>Website Development for PT. Bina Bangun Bahari (BBB)</li>
-                  <li>Supply of Document Management System & Training QA Software Pty, LTd Australia for PT. Leighton Contractor Indonesia</li>
-                  <li>Supply of Document Management System & Training QA Software Pty, LTd Australia for PT. Resindo Outsources Indonesia</li>
-                  <li>Supply of ZWCAD 2011 Standard (CAD Software) for PT. Makmur Sejahtera Wisesa (PT. ADARO)</li>
-                  <li>Supply of Database Online Application for PT. ELNUSA PETROFIN</li>
-                  <li>Supply of Document Management System & Training QA Software Pty, LTd Australia for PT. Suluh Ardi Engineering</li>
+                  <li data-lang-key="project-52">Kemitraan dalam Implementasi Aplikasi EPC (VPcal, VMMS Pro dan VProc) untuk PT. Adhi Karya Tbk</li>
+                  <li data-lang-key="project-53">QDMS – Paket Migrasi Data untuk PT. Kangean Energy Indonesia</li>
+                  <li data-lang-key="project-54">Penyediaan Pelatihan VPcal, VMMS Pro dan VProc untuk PT. WIKA</li>
+                  <li data-lang-key="project-55">Penyediaan Co-location Server untuk PT. Fajar Mas Murni</li>
+                  <li data-lang-key="project-56">Penyediaan Sistem Manajemen Dokumen & Pelatihan QA Software Pty, Ltd Australia untuk PT. Tripatra Engineering</li>
+                  <li data-lang-key="project-57">Penyediaan Aplikasi Payroll, Aplikasi Penyediaan Tenaga Kerja untuk PT. KELSRI</li>
+                  <li data-lang-key="project-58">Penyediaan Sistem Manajemen Dokumen & Pelatihan QA Software Pty, Ltd Australia untuk PT. Guna Nusa</li>
+                  <li data-lang-key="project-59">Penyediaan Aplikasi Payroll, Aplikasi Penyediaan Tenaga Kerja untuk PT. IKPT</li>
+                  <li data-lang-key="project-60">Kustomisasi Pengembangan Website dan Business Intelligence untuk PT. Fajar Mas Murni</li>
+                  <li data-lang-key="project-61">Penyediaan Sistem Manajemen Dokumen & Pelatihan QA Software Pty, Ltd Australia untuk PT. Meindo Elang Indah</li>
+                  <li data-lang-key="project-62">Kustomisasi Laporan Microsoft Navision untuk PT. Sagatrade Murni</li>
+                  <li data-lang-key="project-63">Penyediaan Co-location Server untuk PT. Encona Inti Industri</li>
+                  <li data-lang-key="project-64">Penyediaan Layanan Akses Internet untuk PT. IKPT</li>
+                  <li data-lang-key="project-65">Kustomisasi Timesheet Pro untuk PT. Encona Inti Industri</li>
+                  <li data-lang-key="project-66">Pembaruan Aplikasi Payroll untuk PT. IKPT</li>
+                  <li data-lang-key="project-67">Penyediaan Layanan Akses Internet untuk PT. KELSRI</li>
+                  <li data-lang-key="project-68">Penyediaan Aplikasi E-Leave untuk PT. KBR Indonesia (dalam Proses)</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2012</h3>
+                <h3 data-lang-key="year-2010">2010</h3>
                 <ul class="text-start">
-                  <li>Supply of E-Leave Application for PT. Kraft Foods Indonesia</li>
-                  <li>Supply Of Internet Access Services For PT. IKPT</li>
-                  <li>Supply of Internet Access Services For PT. KELSRI</li>
-                  <li>Supply Of CRM Application for Central On Lince (PT. Total Info Kharisma)</li>
-                  <li>Supply of Document Management System for PT. Supreme Energy</li>
-                  <li>Supply of ZWCAD 2012 Standard (CAD Software) for PT. Parama Matra Widya</li>
-                  <li>Supply of File Management Project for PT. Supreme Energy</li>
-                  <li>Supply of Training Registration & Administration Online System for PT. Kraft Foods Indonesia</li>
-                  <li>Supply of Integrated Supply Chain Logistic / ISCL for PT. Atamora</li>
-                  <li>Supply of Employee Self Service Online System for PT. Kraft Foods Indonesia</li>
-                  <li>Supply of Carrier Framework Online System for PT. Kraft Foods Indonesia</li>
-                  <li>Supply of upgrading QDMS & QVDMS for PT. Inti Karya Persada Tehnik</li>
-                  <li>Supply of Project Document Collaboration for PT. Dian Swastatika Sentosa Power</li>
-                  <li>Supply of ZWCAD 2012 Standard (CAD Software) for PT. Inti Karya Persada Tehnik</li>
-                  <li>Supply of ZWCAD 2012 Professional (CAD Software) for PT. Makmur Sejahtera Wisesa</li>
+                  <li data-lang-key="project-69">Kemitraan dalam Implementasi Aplikasi EPC (VPcal, VMMS Pro dan VProc) untuk PT. Adhi Karya Tbk</li>
+                  <li data-lang-key="project-70">Penyediaan Layanan Akses Internet untuk PT. IKPT</li>
+                  <li data-lang-key="project-71">Penyediaan Layanan Akses Internet untuk PT. KELSRI</li>
+                  <li data-lang-key="project-72">Penyediaan Co-location Server untuk PT. Fajar Mas Murni</li>
+                  <li data-lang-key="project-73">Penyediaan Aplikasi E-Leave untuk PT. KBR Indonesia</li>
+                  <li data-lang-key="project-74">Penyediaan Aplikasi Precommissioning untuk PT. Meindo Elang Indah</li>
+                  <li data-lang-key="project-75">Penyediaan Aplikasi Manajemen Risiko untuk PT. IKPT</li>
+                  <li data-lang-key="project-76">Penyediaan Manajemen Material Proyek untuk PT. KELSRI</li>
+                  <li data-lang-key="project-77">Penyediaan Sistem Manajemen Dokumen & Pelatihan QA Software Pty, Ltd Australia untuk PT. Guna Nusa</li>
+                  <li data-lang-key="project-78">Penyediaan Sistem Manajemen Dokumen & Pelatihan QA Software Pty, Ltd Australia untuk PT. Kangean Energy Indonesia</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2013</h3>
+                <h3 data-lang-key="year-2011">2011</h3>
                 <ul class="text-start">
-                  <li>Supply Of Internet Access Services For PT. IKPT</li>
-                  <li>Supply of Internet Access Services For PT. KELSRI</li>
-                  <li>Supply of QMS Application for PT. Resindo Resources Indonesia</li>
-                  <li>Supply of Training QDMS & QVDMS QA Software Pty, Ltd Australia for PT. Inti Karya Persada Tehnik</li>
-                  <li>Supply of CV Online for PT. STAR Indonesia</li>
-                  <li>Supply of Integrated Finance Approval for PT. Mangkujenang Harmony Sinergy</li>
-                  <li>Supply of Laporan Keuangan Grup Online for PT. Sentra Bangun Harmoni Grup</li>
-                  <li>Supply of Easy Import Clearance System for PT. Kraft Ultra Jaya</li>
-                  <li>Supply of Integrated Supply Chain Logistic / ISCL (Upgrade) for PT. Atamora</li>
-                  <li>Supply of ERP System for PT. Arkon Prima Indonesia versi 1.0</li>
+                  <li data-lang-key="project-79">Penyediaan Layanan Akses Internet untuk PT. IKPT</li>
+                  <li data-lang-key="project-80">Penyediaan Layanan Akses Internet untuk PT. KELSRI</li>
+                  <li data-lang-key="project-81">Penyediaan Pemeliharaan & Dukungan Sistem Manajemen Dokumen untuk PT. Guna Nusa</li>
+                  <li data-lang-key="project-82">Penyediaan Pemeliharaan & Dukungan Sistem Manajemen Dokumen untuk PT. Kangean Energy Indonesia</li>
+                  <li data-lang-key="project-83">Penyediaan ZWCAD 2011 Standard (Perangkat Lunak CAD) untuk PT. Inti Karya Persada Tehnik</li>
+                  <li data-lang-key="project-84">Pengembangan Website untuk PT. Bina Bangun Bahari (BBB)</li>
+                  <li data-lang-key="project-85">Penyediaan Sistem Manajemen Dokumen & Pelatihan QA Software Pty, Ltd Australia untuk PT. Leighton Contractor Indonesia</li>
+                  <li data-lang-key="project-86">Penyediaan Sistem Manajemen Dokumen & Pelatihan QA Software Pty, Ltd Australia untuk PT. Resindo Outsources Indonesia</li>
+                  <li data-lang-key="project-87">Penyediaan ZWCAD 2011 Standard (Perangkat Lunak CAD) untuk PT. Makmur Sejahtera Wisesa (PT. ADARO)</li>
+                  <li data-lang-key="project-88">Penyediaan Aplikasi Database Online untuk PT. ELNUSA PETROFIN</li>
+                  <li data-lang-key="project-89">Penyediaan Sistem Manajemen Dokumen & Pelatihan QA Software Pty, Ltd Australia untuk PT. Suluh Ardi Engineering</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2014</h3>
+                <h3 data-lang-key="year-2012">2012</h3>
                 <ul class="text-start">
-                  <li>Supply of ERP Implementation System for PT. Fajar Mas Murni</li>
-                  <li>Supply of Internet Access Services For PT. KELSRI</li>
-                  <li>Supply of Integrated Supply Chain Logistic / ISCL (Upgrade) for PT. Atamora</li>
-                  <li>Supply of ERP Implementation System for PT. Arkon Prima Indonesia versi 2.0</li>
-                  <li>Supply of Maintenance & Support for Training Registration & Administration Online System for PT. Mondelez Trading Indonesia</li>
-                  <li>Supply of Maintenance & Support E-Leave Application for PT. Mondelez Trading Indonesia</li>
-                  <li>Supply Maintenance & Support of Document Management System for PT. Resindo Resources Indonesia</li>
-                  <li>Supply Maintenance & Support of QMS Material Management System for PT. Resindo Resources Indonesia</li>
-                  <li>Supply of Document Management System & Training QA Software Pty, Ltd Australia for PT. PGN NLG</li>
-                  <li>Redesign Website Development for PT. Bina Bangun Bahari (BBB)</li>
-                  <li>Supply of ERP Implementation System for PT. Gondowangi Kosmetika Indonesia</li>
-                  <li>Supply of MHS IS System 2.0 for PT. Mangkujenang Harmoni Sinergy</li>
-                  <li>Supply of ERP Implementation System for PT. Heksatex Indah</li>
+                  <li data-lang-key="project-90">Penyediaan Aplikasi E-Leave untuk PT. Kraft Foods Indonesia</li>
+                  <li data-lang-key="project-91">Penyediaan Layanan Akses Internet untuk PT. IKPT</li>
+                  <li data-lang-key="project-92">Penyediaan Layanan Akses Internet untuk PT. KELSRI</li>
+                  <li data-lang-key="project-93">Penyediaan Aplikasi CRM untuk Central On Lince (PT. Total Info Kharisma)</li>
+                  <li data-lang-key="project-94">Penyediaan Sistem Manajemen Dokumen untuk PT. Supreme Energy</li>
+                  <li data-lang-key="project-95">Penyediaan ZWCAD 2012 Standard (Perangkat Lunak CAD) untuk PT. Parama Matra Widya</li>
+                  <li data-lang-key="project-96">Penyediaan Proyek Manajemen Berkas untuk PT. Supreme Energy</li>
+                  <li data-lang-key="project-97">Penyediaan Sistem Pendaftaran & Administrasi Pelatihan Online untuk PT. Kraft Foods Indonesia</li>
+                  <li data-lang-key="project-98">Penyediaan Logistic Rantai Pasokan Terintegrasi / ISCL untuk PT. Atamora</li>
+                  <li data-lang-key="project-99">Penyediaan Sistem Layanan Mandiri Karyawan Online untuk PT. Kraft Foods Indonesia</li>
+                  <li data-lang-key="project-100">Penyediaan Sistem Kerangka Pengangkut Online untuk PT. Kraft Foods Indonesia</li>
+                  <li data-lang-key="project-101">Penyediaan Peningkatan QDMS & QVDMS untuk PT. Inti Karya Persada Tehnik</li>
+                  <li data-lang-key="project-102">Penyediaan Kolaborasi Dokumen Proyek untuk PT. Dian Swastatika Sentosa Power</li>
+                  <li data-lang-key="project-103">Penyediaan ZWCAD 2012 Standard (Perangkat Lunak CAD) untuk PT. Inti Karya Persada Tehnik</li>
+                  <li data-lang-key="project-104">Penyediaan ZWCAD 2012 Professional (Perangkat Lunak CAD) untuk PT. Makmur Sejahtera Wisesa</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2015</h3>
+                <h3 data-lang-key="year-2013">2013</h3>
                 <ul class="text-start">
-                  <li>Supply of ERP System for PT. Arkon Prima Indonesia ver 2.0</li>
-                  <li>Supply of Document Progress System for PT. Reka Patria Ekaguna (RPE)</li>
-                  <li>Supply of Document Management System for PT. DSSP SUMBAGSEL Ver 2.0</li>
-                  <li>Supply of Document Management System – Logical Doc for PT. Pertamina EPCepu ADK</li>
-                  <li>Supply of Maintenance & Support QDMS for PT. Resindo Resources Indonesia</li>
-                  <li>Supply of Integrated Employee Information System for PT. Mondelez Indonesia (PT. Kraft Food Indonesia)</li>
-                  <li>Supply of Maintenance & Support QDMS for PT. Inti Karya Persada Tehnik (IKPT)</li>
-                  <li>Supply of Consultation installation & configuration firewall and networking for PT. Pertamina EPCepu ADK</li>
-                  <li>Supply of Implementation ERP System –ODOO V8 for PT. AETRA Air Tangerang</li>
-                  <li>Supply of QDMS QA Software Pty, Ltd Australia for PT. Batutua Tembaga Raya</li>
-                  <li>Supply of QDMS QA Software Pty, Ltd Australia for PT. Wijaya Karya</li>
-                  <li>Supply of QDMS Training QA Software Pty, Ltd Australia for PT. Wijaya Karya</li>
-                  <li>Supply of QDMS QA Software Pty, Ltd Australia for PT. SAS International</li>
-                  <li>Supply of QDMS Training QA Software Pty, Ltd Australia for PT. SAS International</li>
-                  <li>Supply of Implementation ERP System – ODOO V8 for PT. Acuatico Air Indonesia</li>
-                  <li>Supply of QDMS QA Software Pty, Ltd Australia for PT. PetroChina</li>
-                  <li>Supply of QDMS QA Software Pty, Ltd Australia for PT. Tripatra</li>
-                  <li>Supply of QDMS QA Software Pty, Ltd Australia for PT. Petroflexx Prima Daya</li>
+                  <li data-lang-key="project-105">Penyediaan Layanan Akses Internet untuk PT. IKPT</li>
+                  <li data-lang-key="project-106">Penyediaan Layanan Akses Internet untuk PT. KELSRI</li>
+                  <li data-lang-key="project-107">Penyediaan Aplikasi QMS untuk PT. Resindo Resources Indonesia</li>
+                  <li data-lang-key="project-108">Penyediaan Pelatihan QDMS & QVDMS QA Software Pty, Ltd Australia untuk PT. Inti Karya Persada Tehnik</li>
+                  <li data-lang-key="project-109">Penyediaan CV Online untuk PT. STAR Indonesia</li>
+                  <li data-lang-key="project-110">Penyediaan Persetujuan Keuangan Terintegrasi untuk PT. Mangkujenang Harmony Sinergy</li>
+                  <li data-lang-key="project-111">Penyediaan Laporan Keuangan Grup Online untuk PT. Sentra Bangun Harmoni Grup</li>
+                  <li data-lang-key="project-112">Penyediaan Sistem Pembebasan Impor Mudah untuk PT. Kraft Ultra Jaya</li>
+                  <li data-lang-key="project-113">Penyediaan Logistic Rantai Pasokan Terintegrasi / ISCL (Upgrade) untuk PT. Atamora</li>
+                  <li data-lang-key="project-114">Penyediaan Sistem ERP untuk PT. Arkon Prima Indonesia versi 1.0</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2016</h3>
+                <h3 data-lang-key="year-2014">2014</h3>
                 <ul class="text-start">
-                  <li>Supply of Implementation ERP System – ODOO V9 for PT. AARTI JAYA (Bursa Sajadah) - Bandung</li>
-                  <li>Supply of Implementation ERP System – ODOO V9 for PT. SANSAINE EXINDO - Jakarta</li>
-                  <li>Advance Custom ERP System – ODOO V8 for PT. HEKSATEX INDAH - Bandung</li>
-                  <li>Upgrade OPEN ERP V7 to ODOO V9 for PT. GONDOWANGI TRADITIONAL KOSMETIKA - Bekasi</li>
-                  <li>Supply of Maintenance & Support E-Leave Application for PT. MONDELEZ INDONESIA - Jakarta</li>
-                  <li>Supply of Maintenance & Support QDMS for PT. Wijaya Karya - Jakarta</li>
-                  <li>Supply of Maintenance & Support Document Management LogicalDoc for PT. Pertamina EP Cepu - Jakarta</li>
-                  <li>Supply of QDMS QA Software Pty, Ltd Australia for PT. Wijaya Karya - Jakarta</li>
-                  <li>Supply of Pre Implementation Study ERP – ODOO V9 for PT. Catur Adhi Manunggal - Semarang</li>
-                  <li>Supply of Training QDMS QA Software Pty, Ltd Australia for PT. Wijaya Karya – Jakarta</li>
-                  <li>Supply of Maintenance & Support QDMS for PT. Istana Karang Laut – Jakarta</li>
-                  <li>Supply of Odoo Trading, CRM, Sales, SCL, Fleet & Repair Management Implementation for PT. Catur Adhi Manunggal - Semarang, Surabaya & Banyuwangi</li>
-                  <li>Supply of Odoo Implementation for Rental Management for PT. Berlian Amal Perkasa - Jakarta</li>
-                  <li>Supply of Odoo Implementation for Construction Management for PT. Paramita Bangun Sarana - Jakarta</li>
+                  <li data-lang-key="project-115">Penyediaan Sistem Implementasi ERP untuk PT. Fajar Mas Murni</li>
+                  <li data-lang-key="project-116">Penyediaan Layanan Akses Internet untuk PT. KELSRI</li>
+                  <li data-lang-key="project-117">Penyediaan Logistic Rantai Pasokan Terintegrasi / ISCL (Upgrade) untuk PT. Atamora</li>
+                  <li data-lang-key="project-118">Penyediaan Sistem Implementasi ERP untuk PT. Arkon Prima Indonesia versi 2.0</li>
+                  <li data-lang-key="project-119">Penyediaan Pemeliharaan & Dukungan untuk Sistem Pendaftaran & Administrasi Pelatihan Online untuk PT. Mondelez Trading Indonesia</li>
+                  <li data-lang-key="project-120">Penyediaan Pemeliharaan & Dukungan Aplikasi E-Leave untuk PT. Mondelez Trading Indonesia</li>
+                  <li data-lang-key="project-121">Penyediaan Pemeliharaan & Dukungan Sistem Manajemen Dokumen untuk PT. Resindo Resources Indonesia</li>
+                  <li data-lang-key="project-122">Penyediaan Pemeliharaan & Dukungan Sistem Manajemen Material QMS untuk PT. Resindo Resources Indonesia</li>
+                  <li data-lang-key="project-123">Penyediaan Sistem Manajemen Dokumen & Pelatihan QA Software Pty, Ltd Australia untuk PT. PGN NLG</li>
+                  <li data-lang-key="project-124">Pengembangan Ulang Situs Web untuk PT. Bina Bangun Bahari (BBB)</li>
+                  <li data-lang-key="project-125">Penyediaan Sistem Implementasi ERP untuk PT. Gondowangi Kosmetika Indonesia</li>
+                  <li data-lang-key="project-126">Penyediaan Sistem MHS IS 2.0 untuk PT. Mangkujenang Harmoni Sinergy</li>
+                  <li data-lang-key="project-127">Penyediaan Sistem Implementasi ERP untuk PT. Heksatex Indah</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2017</h3>
+                <h3 data-lang-key="year-2015">2015</h3>
                 <ul class="text-start">
-                  <li>Supply of Odoo Enterprise 10.0 Implementation for PT. Niaga Harmoni Indonesia - Jakarta</li>
-                  <li>Supply of QDMS QA Software Pty, Ltd Australia for PT. Wijaya Karya - Jakarta</li>
-                  <li>Supply of Timesheet Management for PT. Wijaya Karya (Industrial Plant Department) – Jakarta</li>
-                  <li>Supply of WDMS (Document Management) for PT. Wijaya Karya – Jakarta</li>
-                  <li>Supply of Maintenance & Support E-Leave Application for PT. MONDELEZ INDONESIA - Jakarta</li>
-                  <li>Supply of Maintenance & Support QDMS for PT. Inti Karya Persada Tehnik (IKPT) - Jakarta</li>
-                  <li>Supply of Customization QDMS for PT. Inti Karya Persada Tehnik (IKPT) – Jakarta</li>
-                  <li>Supply of Document Control Management System for PT. Bhimasema Power Indonesia - Batang</li>
-                  <li>Supply of Odoo Implementation for Purchase Module for PT. Berlian Amal Perkasa – Jakarta</li>
-                  <li>Supply of Additional Management System for PT. Catur Adhi Manunggal – Semarang</li>
-                  <li>Supply of Pre Implementation ODOO for PT. Budi Perkasa Alam - Medan</li>
+                  <li data-lang-key="project-128">Penyediaan Sistem ERP untuk PT. Arkon Prima Indonesia ver 2.0</li>
+                  <li data-lang-key="project-129">Penyediaan Sistem Progres Dokumen untuk PT. Reka Patria Ekaguna (RPE)</li>
+                  <li data-lang-key="project-130">Penyediaan Sistem Manajemen Dokumen untuk PT. DSSP SUMBAGSEL Ver 2.0</li>
+                  <li data-lang-key="project-131">Penyediaan Sistem Manajemen Dokumen – Logical Doc untuk PT. Pertamina EPCepu ADK</li>
+                  <li data-lang-key="project-132">Penyediaan Pemeliharaan & Dukungan QDMS untuk PT. Resindo Resources Indonesia</li>
+                  <li data-lang-key="project-133">Penyediaan Sistem Informasi Karyawan Terintegrasi untuk PT. Mondelez Indonesia (PT. Kraft Food Indonesia)</li>
+                  <li data-lang-key="project-134">Penyediaan Pemeliharaan & Dukungan QDMS untuk PT. Inti Karya Persada Tehnik (IKPT)</li>
+                  <li data-lang-key="project-135">Penyediaan Konsultasi Instalasi & Konfigurasi Firewall dan Jaringan untuk PT. Pertamina EPCepu ADK</li>
+                  <li data-lang-key="project-136">Penyediaan Sistem ERP Implementasi –ODOO V8 untuk PT. AETRA Air Tangerang</li>
+                  <li data-lang-key="project-137">Penyediaan QDMS QA Software Pty, Ltd Australia untuk PT. Batutua Tembaga Raya</li>
+                  <li data-lang-key="project-138">Penyediaan QDMS QA Software Pty, Ltd Australia untuk PT. Wijaya Karya</li>
+                  <li data-lang-key="project-139">Penyediaan Pelatihan QDMS QA Software Pty, Ltd Australia untuk PT. Wijaya Karya</li>
+                  <li data-lang-key="project-140">Penyediaan QDMS QA Software Pty, Ltd Australia untuk PT. SAS International</li>
+                  <li data-lang-key="project-141">Penyediaan Pelatihan QDMS QA Software Pty, Ltd Australia untuk PT. SAS International</li>
+                  <li data-lang-key="project-142">Penyediaan Implementasi ERP Sistem – ODOO V8 untuk PT. Acuatico Air Indonesia</li>
+                  <li data-lang-key="project-143">Penyediaan QDMS QA Software Pty, Ltd Australia untuk PT. PetroChina</li>
+                  <li data-lang-key="project-144">Penyediaan QDMS QA Software Pty, Ltd Australia untuk PT. Tripatra</li>
+                  <li data-lang-key="project-145">Penyediaan QDMS QA Software Pty, Ltd Australia untuk PT. Petroflexx Prima Daya</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2018</h3>
+                <h3 data-lang-key="year-2016">2016</h3>
                 <ul class="text-start">
-                  <li>Supply of Business Intelligent System for PT. Wijaya Karya (DPE IRYS) – Jakarta</li>
-                  <li>Supply of Additional Feature of WDMS for PT. Wijaya Karya (Industrial Plant Department) – Jakarta</li>
-                  <li>Supply of Aplikasi Database Pipa Base on ODOO for PT. Wijaya Karya (Industrial Plant Department) – Jakarta</li>
-                  <li>Supply of Maintenance & Support QDMS for PT. Wijaya Karya - Jakarta</li>
-                  <li>Supply of Integrated Construction Management System for PT. Budi Perkasa Alam - Medan</li>
-                  <li>Supply of Maintenance & Support E-Leave Application for PT. MONDELEZ INDONESIA – Jakarta</li>
-                  <li>Supply of ODOO Implementation V.11 for TOKO BESI TAN – Semarang</li>
-                  <li>Supply of ODOO Implementation V.11 (Accounting Module for Multi Company) for PT. Solusi Awan Cerdas Indonesia - Jakarta</li>
+                  <li data-lang-key="project-146">Penyediaan Sistem Implementasi ERP – ODOO V9 untuk PT. AARTI JAYA (Bursa Sajadah) - Bandung</li>
+                  <li data-lang-key="project-147">Penyediaan Sistem Implementasi ERP – ODOO V9 untuk PT. SANSAINE EXINDO - Jakarta</li>
+                  <li data-lang-key="project-148">Pengembangan Sistem ERP Kustom – ODOO V8 untuk PT. HEKSATEX INDAH - Bandung</li>
+                  <li data-lang-key="project-149">Upgrade dari OPEN ERP V7 ke ODOO V9 untuk PT. GONDOWANGI TRADITIONAL KOSMETIKA - Bekasi</li>
+                  <li data-lang-key="project-150">Penyediaan Pemeliharaan & Dukungan untuk Aplikasi E-Leave untuk PT. MONDELEZ INDONESIA - Jakarta</li>
+                  <li data-lang-key="project-151">Penyediaan Pemeliharaan & Dukungan untuk QDMS untuk PT. Wijaya Karya - Jakarta</li>
+                  <li data-lang-key="project-152">Penyediaan Pemeliharaan & Dukungan untuk Manajemen Dokumen LogicalDoc untuk PT. Pertamina EP Cepu - Jakarta</li>
+                  <li data-lang-key="project-153">Penyediaan Software QDMS QA Pty, Ltd Australia untuk PT. Wijaya Karya - Jakarta</li>
+                  <li data-lang-key="project-154">Penyediaan Studi Pra Implementasi untuk ERP – ODOO V9 untuk PT. Catur Adhi Manunggal - Semarang</li>
+                  <li data-lang-key="project-155">Penyediaan Pelatihan Software QDMS QA untuk PT. Wijaya Karya – Jakarta</li>
+                  <li data-lang-key="project-156">Penyediaan Pemeliharaan & Dukungan untuk QDMS untuk PT. Istana Karang Laut – Jakarta</li>
+                  <li data-lang-key="project-157">Penyediaan Implementasi Odoo Trading, CRM, Sales, SCL, Fleet & Repair Management untuk PT. Catur Adhi Manunggal - Semarang, Surabaya & Banyuwangi</li>
+                  <li data-lang-key="project-158">Penyediaan Implementasi Odoo untuk Manajemen Sewa untuk PT. Berlian Amal Perkasa - Jakarta</li>
+                  <li data-lang-key="project-159">Penyediaan Implementasi Odoo untuk Manajemen Konstruksi untuk PT. Paramita Bangun Sarana - Jakarta</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2019</h3>
+                <h3 data-lang-key="year-2017">2017</h3>
                 <ul class="text-start">
-                  <li>Supply of Maintenance & Support E-Leave Application for PT. MONDELEZ INDONESIA – Jakarta</li>
-                  <li>Supply of Integrated Construction Management System - Fleet, Rental & Repair Management Module for PT. Budi Perkasa Alam - Medan</li>
-                  <li>Supply of ERP Implementation – ODOO 11 for PT. Toko Besi Tan – Semarang</li>
-                  <li>Supply of Bugs Fixing ERP CarFix 2.0 for PT. Global Carfix Indonesia – Semarang</li>
-                  <li>Supply of Auto Repair Service Scheduler & Online Request Management for Independent Workshop Business Model for PT. Carsworld Digital Indonesia – Jakarta</li>
-                  <li>Supply of Maintenance & Support QDMS for PT. Inti Karya Persada Tehnik (IKPT) – Jakarta</li>
-                  <li>Supply of HRIS Module - ODOO 11 for PT. Andalan Finance Indonesia – BSD City</li>
-                  <li>Supply of QDMS Solution - Australia for PT. PetroChina International Jabung Ltd - Jakarta</li>
-                  <li>Supply of QDMS Solution - Australia for PT. Jaya Construction Management Manggala Pratama - Bintaro</li>
-                  <li>Supply of Training WDMS for PT. Wijaya Karya Industrial Plant – Jakarta</li>
-                  <li>Supply of Professional Assignment Python Analytic Developer for Solution Design for Demand Forecasting and Schedule Optimization Project Pertamina – Jakarta</li>
+                  <li data-lang-key="project-160">Penyediaan Implementasi Odoo Enterprise 10.0 untuk PT. Niaga Harmoni Indonesia - Jakarta</li>
+                  <li data-lang-key="project-161">Penyediaan Software QDMS QA Pty, Ltd Australia untuk PT. Wijaya Karya - Jakarta</li>
+                  <li data-lang-key="project-162">Penyediaan Manajemen Timesheet untuk PT. Wijaya Karya (Departemen Pabrik Industri) – Jakarta</li>
+                  <li data-lang-key="project-163">Penyediaan WDMS (Manajemen Dokumen) untuk PT. Wijaya Karya – Jakarta</li>
+                  <li data-lang-key="project-164">Penyediaan Pemeliharaan & Dukungan untuk Aplikasi E-Leave untuk PT. MONDELEZ INDONESIA - Jakarta</li>
+                  <li data-lang-key="project-165">Penyediaan Pemeliharaan & Dukungan untuk QDMS untuk PT. Inti Karya Persada Tehnik (IKPT) - Jakarta</li>
+                  <li data-lang-key="project-166">Penyediaan Kustomisasi untuk QDMS untuk PT. Inti Karya Persada Tehnik (IKPT) – Jakarta</li>
+                  <li data-lang-key="project-167">Penyediaan Sistem Manajemen Kontrol Dokumen untuk PT. Bhimasema Power Indonesia - Batang</li>
+                  <li data-lang-key="project-168">Penyediaan Implementasi Odoo untuk Modul Pembelian untuk PT. Berlian Amal Perkasa – Jakarta</li>
+                  <li data-lang-key="project-169">Penyediaan Sistem Manajemen Tambahan untuk PT. Catur Adhi Manunggal – Semarang</li>
+                  <li data-lang-key="project-170">Penyediaan Pra Implementasi ODOO untuk PT. Budi Perkasa Alam - Medan</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2020</h3>
+                <h3 data-lang-key="year-2018">2018</h3>
                 <ul class="text-start">
-                  <li>Supply of Professional Assignment Python Analytic Developer for MOR Project Pertamina – Jakarta</li>
-                  <li>Supply of Professional Assignment Python Analytic Developer for MAP JOD Project Pertamina – Jakarta</li>
-                  <li>Supply of Maintenance & Support E-Leave Application for PT. MONDELEZ INDONESIA – Jakarta</li>
-                  <li>Supply of Integrated Construction Management System – HR Management Module for PT. Budi Perkasa Alam – Medan</li>
-                  <li>Supply of Optimization for MS2 Project Pertamina – Jakarta</li>
-                  <li>Supply of Integrated Construction Management System – Fleet, Rental & Repair Management Module for PT. Budi Perkasa Alam – Medan</li>
-                  <li>Supply of Document Scanning for PT. MATOA – Jakarta</li>
-                  <li>Supply of Maintenance & Support QDMS - Australia for PT. Jaya Construction Management Manggala Pratama - Bintaro</li>
+                  <li data-lang-key="project-171">Penyediaan Sistem Business Intelligent untuk PT. Wijaya Karya (DPE IRYS) – Jakarta</li>
+                  <li data-lang-key="project-172">Penyediaan Fitur Tambahan untuk WDMS untuk PT. Wijaya Karya (Departemen Pabrik Industri) – Jakarta</li>
+                  <li data-lang-key="project-173">Penyediaan Aplikasi Database Pipa berbasis ODOO untuk PT. Wijaya Karya (Departemen Pabrik Industri) – Jakarta</li>
+                  <li data-lang-key="project-174">Penyediaan Pemeliharaan & Dukungan untuk QDMS untuk PT. Wijaya Karya - Jakarta</li>
+                  <li data-lang-key="project-175">Penyediaan Sistem Manajemen Konstruksi Terintegrasi untuk PT. Budi Perkasa Alam - Medan</li>
+                  <li data-lang-key="project-176">Penyediaan Pemeliharaan & Dukungan untuk Aplikasi E-Leave untuk PT. MONDELEZ INDONESIA – Jakarta</li>
+                  <li data-lang-key="project-177">Penyediaan Implementasi ODOO V.11 untuk TOKO BESI TAN – Semarang</li>
+                  <li data-lang-key="project-178">Penyediaan Implementasi ODOO V.11 (Modul Akuntansi untuk Multi Perusahaan) untuk PT. Solusi Awan Cerdas Indonesia - Jakarta</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2021</h3>
+                <h3 data-lang-key="year-2019">2019</h3>
                 <ul class="text-start">
-                  <li>Supply of Maintenance & Support E-Leave Application for PT. MONDELEZ INDONESIA – Jakarta</li>
-                  <li>Supply of Document Scanning for PT. MATOA – Jakarta</li>
-                  <li>Supply of WEB MAP JOD Enhancement Project Pertamina – Jakarta</li>
-                  <li>Supply of Customization Integrated KMS Application for PT. KMPlus Optima Internasional – Jakarta</li>
-                  <li>Supply of Integrated Construction Management System – HR Management Module for PT. Budi Perkasa Alam – Medan</li>
-                  <li>Supply of Roll Out 3 TBBM for MS2 Project Pertamina – Jakarta</li>
+                  <li data-lang-key="project-179">Penyediaan Pemeliharaan & Dukungan untuk Aplikasi E-Leave untuk PT. MONDELEZ INDONESIA – Jakarta</li>
+                  <li data-lang-key="project-180">Penyediaan Sistem Manajemen Konstruksi Terintegrasi - Modul Fleet, Rental & Repair Management untuk PT. Budi Perkasa Alam - Medan</li>
+                  <li data-lang-key="project-181">Penyediaan Implementasi ERP – ODOO 11 untuk PT. Toko Besi Tan – Semarang</li>
+                  <li data-lang-key="project-182">Penyediaan Perbaikan Bug ERP CarFix 2.0 untuk PT. Global Carfix Indonesia – Semarang</li>
+                  <li data-lang-key="project-183">Penyediaan Auto Repair Service Scheduler & Online Request Management untuk Model Bisnis Bengkel Independen untuk PT. Carsworld Digital Indonesia – Jakarta</li>
+                  <li data-lang-key="project-184">Penyediaan Pemeliharaan & Dukungan untuk QDMS untuk PT. Inti Karya Persada Tehnik (IKPT) – Jakarta</li>
+                  <li data-lang-key="project-185">Penyediaan Modul HRIS - ODOO 11 untuk PT. Andalan Finance Indonesia – BSD City</li>
+                  <li data-lang-key="project-186">Penyediaan Solusi QDMS - Australia untuk PT. PetroChina International Jabung Ltd - Jakarta</li>
+                  <li data-lang-key="project-187">Penyediaan Solusi QDMS - Australia untuk PT. Jaya Construction Management Manggala Pratama - Bintaro</li>
+                  <li data-lang-key="project-188">Penyediaan Pelatihan WDMS untuk PT. Wijaya Karya Industrial Plant – Jakarta</li>
+                  <li data-lang-key="project-189">Penyediaan Tugas Profesional Python Analytic Developer untuk Desain Solusi untuk Proyek Peramalan Permintaan dan Optimasi Jadwal Pertamina – Jakarta</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2022</h3>
+                <h3 data-lang-key="year-2020">2020</h3>
                 <ul class="text-start">
-                  <li>Supply of Maintenance & Support ESS (Employee Self Service) Application for PT. MONDELEZ INDONESIA – Jakarta</li>
-                  <li>Supply of Document Scanning for PT. Sagatrade Murni – Jakarta</li>
-                  <li>Supply of Customization of New ESS (Employee Self Service) Application for PT. MONDELEZ INDONESIA – Jakarta</li>
+                  <li data-lang-key="project-190">Penyediaan Tugas Profesional Python Analytic Developer untuk Proyek MOR Pertamina – Jakarta</li>
+                  <li data-lang-key="project-191">Penyediaan Tugas Profesional Python Analytic Developer untuk Proyek MAP JOD Pertamina – Jakarta</li>
+                  <li data-lang-key="project-192">Penyediaan Pemeliharaan & Dukungan untuk Aplikasi E-Leave untuk PT. MONDELEZ INDONESIA – Jakarta</li>
+                  <li data-lang-key="project-193">Penyediaan Sistem Manajemen Konstruksi Terintegrasi – Modul HR Management untuk PT. Budi Perkasa Alam – Medan</li>
+                  <li data-lang-key="project-194">Penyediaan Optimasi untuk Proyek MS2 Pertamina – Jakarta</li>
+                  <li data-lang-key="project-195">Penyediaan Sistem Manajemen Konstruksi Terintegrasi – Modul Fleet, Rental & Repair Management untuk PT. Budi Perkasa Alam – Medan</li>
+                  <li data-lang-key="project-196">Penyediaan Pemindaian Dokumen untuk PT. MATOA – Jakarta</li>
+                  <li data-lang-key="project-197">Penyediaan Pemeliharaan & Dukungan untuk QDMS - Australia untuk PT. Jaya Construction Management Manggala Pratama - Bintaro</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2023</h3>
+                <h3 data-lang-key="year-2021">2021</h3>
                 <ul class="text-start">
-                  <li>Supply of Maintenance & Support ESS (Employee Self Service) Application for PT. MONDELEZ INDONESIA – Jakarta</li>
-                  <li>Supply of Document Scanning for PT. Sagatrade Murni – Jakarta</li>
-                  <li>Supply of QDMS Solution - Australia for PT. Kaltim Nusantara Coal - Jakarta</li>
-                  <li>Start Up of POS Application – SMART RESTO – Saudi Arabia</li>
-                  <li>Start Up of Health Application – Pharmahub – Saudi Arabia</li>
+                  <li data-lang-key="project-198">Penyediaan Pemeliharaan & Dukungan untuk Aplikasi E-Leave untuk PT. MONDELEZ INDONESIA – Jakarta</li>
+                  <li data-lang-key="project-199">Penyediaan Pemindaian Dokumen untuk PT. MATOA – Jakarta</li>
+                  <li data-lang-key="project-200">Penyediaan Proyek Peningkatan WEB MAP JOD untuk Pertamina – Jakarta</li>
+                  <li data-lang-key="project-201">Penyediaan Kustomisasi Aplikasi KMS Terintegrasi untuk PT. KMPlus Optima Internasional – Jakarta</li>
+                  <li data-lang-key="project-202">Penyediaan Sistem Manajemen Konstruksi Terintegrasi – Modul HR Management untuk PT. Budi Perkasa Alam – Medan</li>
+                  <li data-lang-key="project-203">Penyediaan Roll Out 3 TBBM untuk Proyek MS2 Pertamina – Jakarta</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
               <div class="about-content ps-0 ps-lg-3">
-                <h3>2024</h3>
+                <h3 data-lang-key="year-2022">2022</h3>
                 <ul class="text-start">
-                  <li>Supply of Maintenance & Support ESS (Employee Self Service) Application for PT. MONDELEZ INDONESIA MANUFACTURING - Jakarta</li>
-                  <li>Supply of Document Scanning for PT. Sagatrade Murni – Jakarta</li>
-                  <li>Supply of Maintenance & Support QDMS - Australia for PT. Kaltim Nusantara Coal – Jakarta</li>
-                  <li>Supply of Upgrade and Fixing a Set of Corrupted Data Files QDMS Software – Australia for PT. Kaltim Nusantara Coal - Jakarta</li>
-                  <li>Supply of Maintenance & Support QDMS - Australia for PT. PetroChina International Jabung – Jakarta</li>
-                  <li>Supply of Scanning Document Majalah, for GATRA – Jakarta</li>
-                  <li>Supply of Foto Klise Indexing, for GATRA – Jakarta</li>
-                  <li>Supply of Foto Klise Scanning, for GATRA – Jakarta</li>
-                  <li>Supply of Copy CD, for GATRA – Jakarta</li>
-                  <li>Supply of Support System for PT. Sentra Bangun Harmoni - Jakarta</li>
+                  <li data-lang-key="project-204">Penyediaan Pemeliharaan & Dukungan Aplikasi ESS (Employee Self Service) untuk PT. MONDELEZ INDONESIA – Jakarta</li>
+                  <li data-lang-key="project-205">Penyediaan Pemindaian Dokumen untuk PT. Sagatrade Murni – Jakarta</li>
+                  <li data-lang-key="project-206">Penyediaan Kustomisasi Aplikasi ESS (Employee Self Service) Baru untuk PT. MONDELEZ INDONESIA – Jakarta</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
+              <div class="about-content ps-0 ps-lg-3">
+                <h3 data-lang-key="year-2023">2023</h3>
+                <ul class="text-start">
+                  <li data-lang-key="project-207">Penyediaan Pemeliharaan & Dukungan Aplikasi ESS (Employee Self Service) untuk PT. MONDELEZ INDONESIA – Jakarta</li>
+                  <li data-lang-key="project-208">Penyediaan Pemindaian Dokumen untuk PT. Sagatrade Murni – Jakarta</li>
+                  <li data-lang-key="project-209">Penyediaan Solusi QDMS - Australia untuk PT. Kaltim Nusantara Coal – Jakarta</li>
+                  <li data-lang-key="project-210">Start Up Aplikasi POS – SMART RESTO – Arab Saudi</li>
+                  <li data-lang-key="project-211">Start Up Aplikasi Kesehatan – Pharmahub – Arab Saudi</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-6 d-flex flex-column" data-aos="fade-up" data-aos-delay="200">
+              <div class="about-content ps-0 ps-lg-3">
+                <h3 data-lang-key="year-2024">2024</h3>
+                <ul class="text-start">
+                  <li data-lang-key="project-212">Penyediaan Pemeliharaan & Dukungan Aplikasi ESS (Employee Self Service) untuk PT. MONDELEZ INDONESIA MANUFACTURING - Jakarta</li>
+                  <li data-lang-key="project-213">Penyediaan Pemindaian Dokumen untuk PT. Sagatrade Murni – Jakarta</li>
+                  <li data-lang-key="project-214">Penyediaan Pemeliharaan & Dukungan QDMS - Australia untuk PT. Kaltim Nusantara Coal – Jakarta</li>
+                  <li data-lang-key="project-215">Penyediaan Peningkatan dan Perbaikan Set File Data Korup Aplikasi QDMS – Australia untuk PT. Kaltim Nusantara Coal – Jakarta</li>
+                  <li data-lang-key="project-216">Penyediaan Pemeliharaan & Dukungan QDMS - Australia untuk PT. PetroChina International Jabung – Jakarta</li>
+                  <li data-lang-key="project-217">Penyediaan Pemindaian Dokumen Majalah, untuk GATRA – Jakarta</li>
+                  <li data-lang-key="project-218">Penyediaan Indeks Foto Klise, untuk GATRA – Jakarta</li>
+                  <li data-lang-key="project-219">Penyediaan Pemindaian Foto Klise, untuk GATRA – Jakarta</li>
+                  <li data-lang-key="project-220">Penyediaan Salinan CD, untuk GATRA – Jakarta</li>
+                  <li data-lang-key="project-221">Penyediaan Dukungan Sistem untuk PT. Sentra Bangun Harmoni - Jakarta</li>
                 </ul>
               </div>
             </div>
@@ -1355,8 +1329,11 @@
       <section id="contact" class="contact section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p><span>Need Help?</span> <span class="description-title">Contact Us</span></p>
+          <h2 data-lang-key="contact-title">Kontak</h2>
+          <p>
+            <span data-lang-key="contact-help">Butuh Bantuan?</span>
+            <span class="description-title" data-lang-key="contact-us">Hubungi Kami</span>
+          </p>
         </div>
         <!-- End Section Title -->
 
@@ -1364,37 +1341,41 @@
           <div class="row gy-4">
             <div class="col-lg-5">
               <div class="info-wrap">
+                <!-- Center Office -->
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
                   <div>
-                    <h3>Center Office</h3>
-                    <p>Jl. Menteng Raya No.72 Kebon Sirih Kec. Menteng, Kota Adm Jakarta Pusat Prov. DKI Jakarta.</p>
+                    <h3 data-lang-key="center-office">Center Office</h3>
+                    <p data-lang-key="center-office-address">Jl. Menteng Raya No.72 Kebon Sirih Kec. Menteng, Kota Adm Jakarta Pusat Prov. DKI Jakarta.</p>
                   </div>
                 </div>
 
+                <!-- Workshop Office -->
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
                   <div>
-                    <h3>Workshop Office</h3>
-                    <p>H. Kunjin No. 96 – Jl. Radar Auri Cibubur, Ciracas Jakarta Timur 13720 Indonesia</p>
+                    <h3 data-lang-key="workshop-office">Workshop Office</h3>
+                    <p data-lang-key="workshop-office-address">H. Kunjin No. 96 – Jl. Radar Auri Cibubur, Ciracas Jakarta Timur 13720 Indonesia</p>
                   </div>
                 </div>
                 <!-- End Info Item -->
 
+                <!-- Call Us -->
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                   <i class="bi bi-telephone flex-shrink-0"></i>
                   <div>
-                    <h3>Call Us</h3>
+                    <h3 data-lang-key="call-us">Call Us</h3>
                     <p>+62 21 8775 0437</p>
                     <p>+62 21 8775 0434</p>
                   </div>
                 </div>
                 <!-- End Info Item -->
 
+                <!-- Email Us -->
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                   <i class="bi bi-envelope flex-shrink-0"></i>
                   <div>
-                    <h3>Email Us</h3>
+                    <h3 data-lang-key="email-us">Email Us</h3>
                     <p>marketing@visi.co.id</p>
                     <p>www.visi.co.id</p>
                   </div>
@@ -1415,35 +1396,36 @@
               <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                 <div class="row gy-4">
                   <div class="col-md-6">
-                    <label for="name-field" class="pb-2">Your Name</label>
+                    <label for="name-field" class="pb-2" data-lang-key="your-name">Nama Anda</label>
                     <input type="text" name="name" id="name-field" class="form-control" required="" />
                   </div>
 
                   <div class="col-md-6">
-                    <label for="email-field" class="pb-2">Your Email</label>
+                    <label for="email-field" class="pb-2" data-lang-key="your-email">Email Anda</label>
                     <input type="email" class="form-control" name="email" id="email-field" required="" />
                   </div>
 
                   <div class="col-md-12">
-                    <label for="subject-field" class="pb-2">Subject</label>
+                    <label for="subject-field" class="pb-2" data-lang-key="subject">Subjek</label>
                     <input type="text" class="form-control" name="subject" id="subject-field" required="" />
                   </div>
 
                   <div class="col-md-12">
-                    <label for="message-field" class="pb-2">Message</label>
+                    <label for="message-field" class="pb-2" data-lang-key="message">Pesan</label>
                     <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
                   </div>
 
                   <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                    <div class="loading" data-lang-key="loading">Memuat</div>
+                    <div class="error-message" data-lang-key="error-message"></div>
+                    <div class="sent-message" data-lang-key="sent-message">Pesan Anda telah dikirim. Terima kasih!</div>
 
-                    <button type="submit">Send Message</button>
+                    <button type="submit" data-lang-key="send-message">Kirim Pesan</button>
                   </div>
                 </div>
               </form>
             </div>
+
             <!-- End Contact Form -->
           </div>
         </div>
@@ -1456,13 +1438,16 @@
         <div class="container">
           <div class="row justify-content-center text-center">
             <div class="col-lg-6">
-              <h4>Join Our Newsletter</h4>
-              <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-              <form action="forms/newsletter.php" method="post" class="php-email-form">
-                <div class="newsletter-form"><input type="email" name="email" /><input type="submit" value="Subscribe" /></div>
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+              <h4 data-lang-key="join-newsletter">Bergabung Dengan Newsletter Kami</h4>
+              <p data-lang-key="newsletter-description">Berlangganan newsletter kami dan dapatkan berita terbaru tentang produk dan layanan kami!</p>
+              <form action="#" method="post" class="php-email-form">
+                <div class="newsletter-form">
+                  <input type="email" name="email" />
+                  <input type="submit" value="Subscribe" data-lang-key="subscribe" />
+                </div>
+                <div class="loading" data-lang-key="loading-subs">Loading</div>
+                <div class="error-message" data-lang-key="error-message-subs"></div>
+                <div class="sent-message" data-lang-key="sent-message-subs">Permintaan langganan Anda telah dikirim. Terima kasih!</div>
               </form>
             </div>
           </div>
@@ -1478,32 +1463,32 @@
             <div class="footer-contact pt-3">
               <p>H. Kunjin No. 96 – Jl. Radar Auri</p>
               <p>Cibubur, Ciracas Jakarta Timur 13720 Indonesia</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+62 21 8775 0437</span></p>
+              <p class="mt-3"><strong>Telepon:</strong> <span>+62 21 8775 0437</span></p>
               <p><strong>Email:</strong> <span>marketing@visi.co.id</span></p>
             </div>
           </div>
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
+            <h4 data-lang-key="useful-links">Tautan Berguna</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#" data-lang-key="footer-home">Beranda</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#" data-lang-key="footer-about-us">Tentang Kami</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#" data-lang-key="footer-services">Layanan</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#" data-lang-key="footer-terms-and-conditions">Syarat dan Ketentuan</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
+            <h4 data-lang-key="our-services">Layanan Kami</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#" data-lang-key="web-design">Desain Web</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#" data-lang-key="web-development">Pengembangan Web</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#" data-lang-key="product-management">Manajemen Produk</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#" data-lang-key="marketing">Pemasaran</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-12">
-            <h4>Follow Us</h4>
+            <h4 data-lang-key="follow-us">Ikuti Kami</h4>
             <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
             <div class="social-links d-flex">
               <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -1516,13 +1501,13 @@
       </div>
 
       <div class="container copyright text-center mt-4">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">VISI</strong> <span>All Rights Reserved</span></p>
+        <p>© <span data-lang-key="copyright">Hak Cipta</span> <strong class="px-1 sitename" data-lang-key="site-name">VISI</strong> <span data-lang-key="copyright-protected">Hak Cipta Dilindungi</span></p>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
+          <!-- Semua tautan di footer harus tetap utuh. -->
+          <!-- Anda dapat menghapus tautan hanya jika Anda membeli versi pro. -->
+          <!-- Informasi lisensi: https://bootstrapmade.com/license/ -->
+          <!-- Pembelian versi pro dengan formulir kontak PHP/AJAX yang berfungsi: [buy-url] -->
+          <span data-lang-key="designed-by">Dirancang oleh</span> <a href="https://bootstrapmade.com/">BootstrapMade</a> <span data-lang-key="distributed-by">Distribusikan oleh</span> <a href="https://themewagon.com">ThemeWagon</a>
         </div>
       </div>
     </footer>
@@ -1551,5 +1536,6 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/language.js"></script>
   </body>
 </html>
