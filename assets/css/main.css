@@ -207,8 +207,22 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 56px;
+  max-height: 55px;
   margin-right: 8px;
+}
+
+@media (min-width: 992px) {
+  .header .logo img {
+    max-height: 70px;
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header .logo img {
+    max-height: 85px;
+    margin-right: 0px;
+  }
 }
 
 .header .logo h1 {
