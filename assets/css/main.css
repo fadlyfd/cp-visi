@@ -199,7 +199,7 @@ h6 {
 .header .branding {
   background-color: var(--background-color);
   min-height: 60px;
-  /* padding: 10px 0; */
+  padding: 10px 0;
 }
 
 .header .logo {
@@ -207,20 +207,20 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 55px;
+  max-height: 40px;
   margin-right: 8px;
 }
 
 @media (min-width: 992px) {
   .header .logo img {
-    max-height: 70px;
+    max-height: 60px;
     margin-right: 0px;
   }
 }
 
 @media (min-width: 1200px) {
   .header .logo img {
-    max-height: 85px;
+    max-height: 75px;
     margin-right: 0px;
   }
 }
