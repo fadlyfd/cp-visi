@@ -9,7 +9,7 @@
   "nav-english": "Inggris",
   "nav-contact": "Kontak",
   "hero-welcome": "Selamat Datang di VISI",
-  "hero-tagline": "MEMBUAT SEGALANYA MENJADI LEBIH BAIK DAN MUDAH",
+  "hero-tagline": "KAMI MEMBERIKAN SOLUSI TERBAIK",
   "hero-get-started": "Mulai",
   "hero-watch-video": "Tonton Video",
   "about-title": "Tentang Kami",
@@ -361,5 +361,10 @@
   "site-name": "VISI",
   "copyright-protected": "Hak Cipta Dilindungi",
   "designed-by": "Dirancang oleh",
-  "distributed-by": "Distribusikan oleh"
+  "distributed-by": "Distribusikan oleh",
+
+  "competence-skills": "Kompetensi dan Skill",
+  "service_details": "Detail Layanan",
+  "service_details-2": "Detail Layanan",
+  "nav-home-2": "Beranda"
 }

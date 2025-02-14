@@ -915,7 +915,7 @@ section,
 .hero .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
-  margin-left: 25px;
+  /* margin-left: 25px; */
   color: var(--default-color);
   font-weight: 600;
 }
@@ -1089,6 +1089,10 @@ section,
   display: block;
   background: none;
   border-radius: 0;
+}
+
+.skills.section {
+  padding-top: 0;
 }
 
 .skills .progress .skill {
@@ -1455,6 +1459,14 @@ section,
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 0;
+}
+
+.bg-soft-blue {
+  background-color: #87ceeb;
+}
+
+.bg-butter-yellow {
+  background-color: #ffecb3;
 }
 
 /*--------------------------------------------------------------

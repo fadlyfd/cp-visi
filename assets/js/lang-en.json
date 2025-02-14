@@ -9,7 +9,7 @@
   "nav-english": "English",
   "nav-contact": "Contact",
   "hero-welcome": "Welcome to VISI",
-  "hero-tagline": "MAKE EVERYTHING BETTER AND EASIER",
+  "hero-tagline": "WE PROVIDE THE BEST SOLUTION",
   "hero-get-started": "Get Started",
   "hero-watch-video": "Watch Video",
   "about-title": "About Us",
@@ -358,5 +358,10 @@
   "site-name": "VISI",
   "copyright-protected": "Copyright Protected",
   "designed-by": "Designed by",
-  "distributed-by": "Distributed by"
+  "distributed-by": "Distributed by",
+
+  "competence-skills": "Competence and Skills",
+  "service_details": "Service Details",
+  "service_details-2": "Service Details",
+  "nav-home-2": "Home"
 }
